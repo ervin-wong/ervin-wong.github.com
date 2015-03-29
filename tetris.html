@@ -22,7 +22,8 @@
             if(this.field&&this.field.check(this.shape,this.x,this.y,'v')=='D'){
                 over=true;
                 this.field.fixShape(this.shape,this.x,this.y);
-                alert('game over');}}
+                //alert('game over');
+                }}
         this.show = function(){
             for(var i in this.divs){
                 this.divs[i].style.left = (this.shape[i*2]*1+this.x)*20+'px';
