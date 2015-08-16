@@ -1,29 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 body {
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
-ul{
+ul {
     list-style-type: none;
     font-size: 16px;
     font-family: sans-serif;
-    margin:10 20px;
-
+    margin: 10 20px;
 }
 .container {
     font-size: 14px;
     font-family: Sans-serif, Serif;
+    width: 100%;
+    height: 100%;
 }
 .header {
     width: 100%;
-    min-width: 1200px;
+    min-width: 1000px;
     height: 68px;
     margin-bottom: 6px;
     background-color: #666699;
@@ -34,7 +35,7 @@ ul{
 .footer {
     width: 100%;
     height: 40px;
-    background-color:#fff;
+    background-color: #fff;
     border-top: 1px solid #ccc;
 }
 .footer span {
@@ -71,15 +72,15 @@ ul{
 }
 
 .main {
-    min-height: 400px;
+    height: auto;
     width: 100%;
     background-color: #fff;
 }
 .main-wrapper {
     width: 1000px;
     margin: 10px auto;
-    overflow:hidden;
-    min-height:100%;
+    overflow: hidden;
+    min-height: 600px;
 }
 .main-catalog {
     float: left;
@@ -90,9 +91,9 @@ ul{
     float: left;
     width: 740px;
     height: auto;
-    background-color:#f8f8f8;
-    border-radius:6px;
-    margin-left:10px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    margin-left: 10px;
 }
 
 div#pic {
@@ -121,7 +122,7 @@ div#intro {
     overflow: hidden;
     paddding: 1px;
     background-color: #f8f8f8;
-    margin:20 0px;
+    margin: 20 0px;
 }
 .catalog-list .catalog-list-title {
     font-size: 16px;
@@ -131,22 +132,21 @@ div#intro {
     padding: 5 0px;
 }
 
-.catalog-list li{
-    display:block;
-    padding:6 6px;
-    color:#669;
-    border-bottom:1px solid #e8e8e8;
-    cursor:pointer;
+.catalog-list li {
+    display: block;
+    padding: 6 6px;
+    color: #669;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
 }
 
-#under_construction{
-    display:block;
-    line-height:100px;
-    font-size:40px;
+#under_construction {
+    display: block;
+    line-height: 100px;
+    font-size: 40px;
     color: #c1c1c1;
     font-style: initial;
-    text-align:center;
+    text-align: center;
     text-shadow: 0px 6px 4px #e8e8e8;
-    margin:200 auto;
-
+    margin: 200 auto;
 }
