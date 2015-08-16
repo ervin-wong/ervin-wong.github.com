@@ -1,0 +1,51 @@
+.container{
+	float: left;
+	padding: 10px 30px;
+}
+.icon-wrap{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+.icon-wrap i {
+	font-size: 40px;
+    display: block;
+}
+.icon-wrap:hover i {
+	font-size: 60px;
+    color:#0096D6;
+}
+.icon-wrap:hover span{
+	visibility:visible;
+	white-space: normal;
+	height: auto;
+}
+.icon-wrap span {
+	font-size: 12px;
+	visibility: hidden;
+	max-width: 100px;
+	width:auto;
+	height: 12px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+input#searchBox{
+	font-size: 20px;
+	width: 300px;
+	height: 40px;
+	padding: 5px 30px 5px 5px;
+	border-style: solid;
+    border-color: #aaa;
+}
+
+div#searchWrapper .icon-search{
+	position: relative;
+	left: -30px;
+	top:5px;
+	font-size: 20px;
+	padding: 5px 5px;
+}
