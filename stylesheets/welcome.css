@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 80%;
+    width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin:10 20px;
+
+}
+.container {
+    font-size: 14px;
+    font-family: Sans-serif, Serif;
+}
+.header {
+    width: 100%;
+    min-width: 1200px;
+    height: 68px;
+    margin-bottom: 6px;
+    background-color: #666699;
+    color: #fff;
+    border-bottom: 2px solid #669;
+    box-shadow: 0px 0px 6px rgba(6,6,9, .6);
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color:#fff;
+    border-top: 1px solid #ccc;
+}
+.footer span {
+    color: #c8c8c8;
+}
+.nav {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav ul {
+    display: block;
+    height: 100%;
+    margin: 0px auto;
+}
+.nav ul li {
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding: 20 0px;
+    font-size: 24px;
+}
+.nav ul li:hover {
+    border-bottom: solid 6px #447;
+    color: #fff;
+    background-color: #447;
+    cursor: pointer;
+}
+#copyright {
+    width: 400px;
+    height: 100%;
+    margin: 10 auto;
+}
+
+.main {
+    min-height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+.main-wrapper {
+    width: 1000px;
+    margin: 10px auto;
+    overflow:hidden;
+    min-height:100%;
+}
+.main-catalog {
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.main-content {
+    float: left;
+    width: 740px;
+    height: auto;
+    background-color:#f8f8f8;
+    border-radius:6px;
+    margin-left:10px;
+}
+
+div#pic {
+    width: 250px;
+    height: 250px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#pic img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+#pic img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+div#intro {
+    text-align: center;
+}
+.catalog-list {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    paddding: 1px;
+    background-color: #f8f8f8;
+    margin:20 0px;
+}
+.catalog-list .catalog-list-title {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d8d8d8;
+    text-align: center;
+    padding: 5 0px;
+}
+
+.catalog-list li{
+    display:block;
+    padding:6 6px;
+    color:#669;
+    border-bottom:1px solid #e8e8e8;
+    cursor:pointer;
+}
+
+#under_construction{
+    display:block;
+    line-height:100px;
+    font-size:40px;
+    color: #c1c1c1;
+    font-style: initial;
+    text-align:center;
+    text-shadow: 0px 6px 4px #e8e8e8;
+    margin:200 auto;
+
+}
