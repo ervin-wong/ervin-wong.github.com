@@ -14,37 +14,42 @@ ul {
     list-style-type: none;
     font-size: 16px;
     font-family: sans-serif;
-    margin: 10 20px;
+    margin: 10px 20px;
 }
 .container {
     font-size: 14px;
     font-family: Sans-serif, Serif;
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #fff;
 }
 .header {
     width: 100%;
     min-width: 1000px;
-    height: 68px;
-    margin-bottom: 6px;
-    background-color: #666699;
-    color: #fff;
-    border-bottom: 2px solid #669;
-    box-shadow: 0px 0px 6px rgba(6,6,9, .6);
+    height: 50px;
+    color: #eee;
 }
 .footer {
     width: 100%;
     height: 40px;
-    background-color: #fff;
-    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0px;
 }
 .footer span {
     color: #c8c8c8;
 }
 .nav {
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
+    width: 1000px;
+    height: 50px;
+    line-height: 42px;
+    margin: 10px auto;
+    padding-left: 20px;
+    background-color: #666699;
+    text-align: center;
+    /* border-radius: 10px; */
 }
 .nav ul {
     display: block;
@@ -56,24 +61,42 @@ ul {
     float: left;
     width: 100px;
     text-align: center;
-    padding: 20 0px;
-    font-size: 24px;
+    padding: 4px 0px;
 }
 .nav ul li:hover {
-    border-bottom: solid 6px #447;
-    color: #fff;
-    background-color: #447;
+    font-size: 18px;
+    color: #333;
     cursor: pointer;
+    background:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 }
 #copyright {
-    width: 400px;
     height: 100%;
-    margin: 10 auto;
+    width: 1000px;
+    padding-top: 10px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #eee;
 }
 
 .main {
     height: auto;
     width: 100%;
+    margin: 0px auto;
     background-color: #fff;
 }
 .main-wrapper {
@@ -120,21 +143,21 @@ div#intro {
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
-    paddding: 1px;
+    padding: 1px;
     background-color: #f8f8f8;
-    margin: 20 0px;
+    margin: 20px 0px;
 }
 .catalog-list .catalog-list-title {
     font-size: 16px;
     font-weight: bold;
     background-color: #d8d8d8;
     text-align: center;
-    padding: 5 0px;
+    padding: 5px 0px;
 }
 
 .catalog-list li {
     display: block;
-    padding: 6 6px;
+    padding: 6px 6px;
     color: #669;
     border-bottom: 1px solid #e8e8e8;
     cursor: pointer;
@@ -148,5 +171,5 @@ div#intro {
     font-style: initial;
     text-align: center;
     text-shadow: 0px 6px 4px #e8e8e8;
-    margin: 200 auto;
+    margin: 200px auto;
 }
